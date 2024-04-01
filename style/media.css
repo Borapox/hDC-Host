@@ -1,0 +1,66 @@
+/* Responsividade */
+
+/* small laptops */
+@media (max-width:110px) {
+ .plans-container {
+    width: 95%;
+ }   
+ .plan {
+    margin: 0 5px;
+ }
+}
+
+/* Tablet */
+@media (max-width:900px) {
+    .main-banner p {
+        padding: 0 6rem;
+    }
+    .searchdomain-container {
+        padding: 2rem;
+    }
+}
+/* Celular 576px */
+@media (max-width: 576px) {
+    html,
+    body {
+    overflow-x: hidden;
+    }
+    .navbar-items li {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .services-container ul {
+        flex-direction: column;
+    }
+    .services-container li p{
+        text-align: justify;
+    }
+    .plans-container {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 2rem;
+    }
+    .main-banner p {
+        padding: 0 2rem;
+    }
+    .plan {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+    .contact-container {
+        padding: 3rem 2 rem;
+
+    }
+    .contact-container input,
+    .contact-container textarea {
+        width: 100%;
+        margin: 0 10px;
+    }
+    .searchdomain-container {
+        font-size: 28px;
+    }
+    .searchdomain-container input[type="text"] {
+        width: 100%;
+    }
+}
